@@ -6,7 +6,7 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
     display: flex;
-   
+
     align-items: center;
     justify-content: center;
     /* height: 90vh; */
@@ -17,20 +17,22 @@ body{
 .container{
     display: flex;
     width: 90vw;
+    margin-top: 3rem;
 }
 
 .panel {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 85vh;
+    height: 78vh;
     border-radius: 2rem;
     cursor: pointer;
     color: antiquewhite;
     flex: 0.4;
-    margin: 1.5rem;
+    margin: 0.7rem;
     position: relative;
     transition: flex 1s ease-in;
+
 }
 
 .panel h3{
